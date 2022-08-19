@@ -1,0 +1,24 @@
+# Editors
+.vscode
+.idea
+
+# Extra Files
+.DS_Store
+src/*.dll
+src/*.pdb
+src/*.lib
+
+# Rust
+/target
+/Cargo.lock
+
+# Crystal
+/docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
+
+# Libraries don't need dependency lock
+# Dependencies will be locked in applications that use them
+/shard.lock

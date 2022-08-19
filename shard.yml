@@ -1,0 +1,13 @@
+name: rust-crystal-ffi-example
+version: 0.1.0
+
+authors:
+  - LePichu <ishat.prsnl65844@gmail.com>
+
+targets:
+  rust-crystal-ffi-example:
+    main: src/rust-crystal-ffi-example.cr
+
+crystal: 1.6.0-dev
+
+license: MIT
