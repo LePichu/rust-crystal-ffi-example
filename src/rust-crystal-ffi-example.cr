@@ -1,7 +1,7 @@
-@[Link(ldflags: "#{__DIR__}/example.dll.lib")]
+@[Link(ldflags: "#{__DIR__}/../target/debug/example.dll.lib")]
 lib Example
-  fun greet (name : UInt8*) : Void
-  fun sum (num1 : Int32, num2 : Int32) : Int32
+    fun greet (name : UInt8*) : Void
+    fun sum (num1 : Int32, num2 : Int32) : Int32
 end
 
 Example.greet "Crystal from Rust"
